@@ -6,8 +6,8 @@
 
 #### For cloning this project
 ##### - Download the ZIP file of the project and extract it
-##### Run ```npm install``` on the terminal
-##### Check on the ```localhost:5000``` of your browser
+##### - Run ```npm install``` on the terminal
+##### - Check on the ```localhost:5000``` of your browser
 
 #### Language used
 ![](languages.png)
