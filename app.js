@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 
 //This is an optional route that can be used in future in case of addition of new Products is required
 //CAN BE IGNORED FOR NOW
-app.get('/create', async (req, res) => {
+app.post('/create', async (req, res) => {
     const barcodeId = req.query.barcodeID;
     const Name = req.query.Name;
     const ProductType = req.query.productType;
