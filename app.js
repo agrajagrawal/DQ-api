@@ -71,7 +71,7 @@ app.post('/create', async (req, res) => {
  *      404:
  *        description: Product Not available
  */
-app.post("/getProduct", async (req, res) => {
+app.get("/getProduct", async (req, res) => {
     const barCodeID = req.query.barcodeID;
     try {
         const info = await ProductInfo.find({ barcodeId: barCodeID });
